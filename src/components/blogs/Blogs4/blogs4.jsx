@@ -173,12 +173,12 @@ const Blogs4 = () => {
                         </div>
                         <div className="info">
                           <Link href="/Blogs">
-                            <a>
+                            
                               <i className="far fa-clock"></i>
                               06 Aug 2022
-                            </a>
+                            
                           </Link>
-                          <a href="/Blogs">by Alex Morgan</a>
+                          <Link href="/Blogs">by Alex Morgan </Link>
                         </div>
                         <div className="title">
                           <h4>
@@ -215,7 +215,7 @@ const Blogs4 = () => {
                               06 Aug 2022
                             </a>
                           </Link>
-                          <a href="/Blogs">by Alex Morgan</a>
+                          <Link href="/Blogs">by Alex Morgan</Link>
                         </div>
                         <div className="title">
                           <h4>
@@ -252,7 +252,7 @@ const Blogs4 = () => {
                               06 Aug 2022
                             </a>
                           </Link>
-                          <a href="/Blogs">by Alex Morgan</a>
+                          <Link href="/Blogs">by Alex Morgan</Link>
                         </div>
                         <div className="title">
                           <h4>
