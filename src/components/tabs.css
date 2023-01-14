@@ -1,0 +1,123 @@
+
+
+h1 {
+    color: white;
+    font-weight: 500;
+    text-align: center;
+    margin: 60px 0;
+}
+
+.cont_tabs_tabs_tabs {
+    width: 960px;
+    margin: 0 auto;
+}
+
+.tbb {
+    display: flex;
+    justify-cont_tabs_tabs_tabsent: space-between;
+}
+
+.tbb button {
+    background-color: lightgray;
+    border: none;
+    color: #888888;
+    cursor: pointer;
+    padding: 25px;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.1);
+    transition: all 0.5s ease-out;
+}
+
+.tbb button:hover {
+    color: white;
+    background-color: rgba(255, 255, 255, 0.15);
+}
+
+.tbb button:disabled {
+    background: linear-gradient(245.39deg, #FC65ED -35.14%, #0500FF 143.06%);
+    color: white;
+}
+
+.title {
+    color: white;
+    font-size: medium;
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.texttt {
+    padding: 50px 80px;
+    background-color: none;
+    font-weight: 300;
+    line-height: 30px;
+    font-size: 16px;
+    text-align: justify;
+}
+
+.lbl{
+    color: #fff;
+    text-decoration: none;
+}
+.texttt,
+button {
+    font-size: 15px;
+}
+
+.btnCreate{
+    background: linear-gradient(245.39deg, #FC65ED -35.14%, #0500FF 143.06%);
+    border: none;
+    width: 185px;
+    height: 59px;
+    border-radius: 50px;
+    transition: 1.5s;
+
+}
+
+.btnCreate:hover{
+    letter-spacing: 3px;
+}
+
+.inp{
+    background: #252525;
+    border: 1px solid #3a3939;
+    height: 59px
+}
+.accountt{
+    width: 100%;
+    color: #6C757D;
+    border: 1px solid #3a3939;
+    height: 59px;
+    border-radius: 0.375rem;
+}
+footer{
+    display: flex;
+    justify-cont_tabs_tabs_tabsent: center;
+    text-decoration: none;
+    margin: 50px 0;
+}
+
+footer a {
+    color: #999999;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+@media only screen and (max-width: 960px) {
+
+    .cont_tabs_tabs_tabs {
+        width: 100%;
+    }
+
+    .texttt {
+        padding: 50px;
+    }
+}
+@media screen and (max-width: 518px) {
+    .tbb{
+        display: block;
+    }
+}
