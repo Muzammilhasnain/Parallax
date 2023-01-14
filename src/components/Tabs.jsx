@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import Register from './register';
 
-const tbb = () => {
+const Tab = () => {
 
     const [currentTab, setCurrentTab] = useState('1');
     const tbb = [
@@ -49,4 +49,4 @@ const tbb = () => {
     );
 }
 
-export default tbb;
+export default Tab;
